@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compound Calculator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Interest Calculator</h1>
+    <div id="interest-card">
+        
+        <div class="info">
+
+            <div class="principal info-container">
+                <span>Principal Amount</span>
+                <input type="number" name="" id="" placeholder="1000">
+            </div>
+            
+            <div class="interest-rate info-container">
+                <span>Interest Rate</span>
+                <input type="number" placeholder="1">
+            </div>
+            
+            <div class="years info-container">
+                <span>Years</span>
+                <input type="number" name="" id="" min=0 placeholder="0">
+            </div>
+            
+            <div class="months info-container">
+                <span>Months</span>
+                <input type="number" name="" id="" min=0 max=11 placeholder="0">
+            </div>
+
+            <div class="frequency info-container">
+                <span>Frequency</span>
+                <select name="" id="time">
+                    <option value="annually">Annually</option>
+                    <option value="semiannually">Semi-Annually</option>
+                    <option value="quarterly">Quarterly</option>
+                    <option value="monthly">Monthly</option>
+                </select>
+            </div>
+        </div>
+        
+        <button id="calculate">Calculate</button>
+        <p>You earned x amount in interest bringing your total to: $</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
