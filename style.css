@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: #B0B2B8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#interest-card {
+    border: 1px solid #fff;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 400px;
+    padding: 25px;
+    justify-content: space-evenly;
+
+}
+
+#interest-card .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.info-container input {
+    width: 150px;
+    padding: 5px 10px;
+    margin-left: auto;
+}
+
+#calculate {
+    width: 200px;
+    margin: auto;
+    padding: 10px 15px;
+    background-color: #3DDC97;
+    border: none;
+    border-radius: 5px;
+}
